@@ -109,10 +109,10 @@ class Game{
                             fruitGroup.get(i).destroy();
                         }
                     }
-                     player.score = player.score+1;
-                     player.update();
+                     
                   }
-          
+          player.score = player.score+1;
+                     player.update();
     }
 
     end(){
