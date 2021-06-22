@@ -115,7 +115,7 @@ class Game{
                      player.update();
     }
 
-    end(){
+    end(){ 
        console.log("Game Ended");
     }
 }
